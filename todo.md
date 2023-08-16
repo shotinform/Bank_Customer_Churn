@@ -1,0 +1,1 @@
+- staviti atribute u izvestaj
