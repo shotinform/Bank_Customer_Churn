@@ -18,7 +18,7 @@ mining.
     -   HistGradientBoostingClassifier (with RandomizedSearch)
 -   **Model Evaluation:** Confusion matrix, F1-score, ROC curve, AUC.
 -   **Clustering:**
-    -   K-means (with PCA and t-SNE visualization)\
+    -   K-means (with PCA and t-SNE visualization)
     -   Hierarchical clustering.
 -   **Association Rules:** Apriori algorithm to discover patterns linked
     to churn behavior.
