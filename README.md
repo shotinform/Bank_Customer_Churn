@@ -1,16 +1,33 @@
-# Data Mining - Bank Customer Churn
+# Bank Customer Churn Analysis
 
-Student: Marko Nikitovic, 123/2020
-Asistent: Marija Erić
-Profesor: dr. Nenad Mitić
+This project explores and analyzes a dataset of 10,000 bank customers to
+identify factors influencing customer churn. It includes data
+preprocessing, predictive modeling, clustering, and association rule
+mining.
 
-- Dependencies
-    - `pip install numpy `
-    - `pip install panda`
-    - `pip install seaborn`
-    - `pip install matplotlib`
-    - `pip install joblib`
-    - `pip install sklearn`
-    - `pip install scipy`
+## **Key Features**
 
-Link ka skupu podataka: https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn
+-   **Data Preprocessing:** Removed irrelevant attributes, handled
+    imbalanced data (SMOTE), binarized categorical variables.
+-   **Exploratory Data Analysis:** Identified key features impacting
+    churn (Age, NumOfProducts).
+-   **Classification Models:**
+    -   Decision Trees (with GridSearch for tuning)
+    -   Random Forest (with SMOTE for class balancing)
+    -   Support Vector Machines (SVM)
+    -   HistGradientBoostingClassifier (with RandomizedSearch)
+-   **Model Evaluation:** Confusion matrix, F1-score, ROC curve, AUC.
+-   **Clustering:**
+    -   K-means (with PCA and t-SNE visualization)\
+    -   Hierarchical clustering.
+-   **Association Rules:** Apriori algorithm to discover patterns linked
+    to churn behavior.
+
+## **Results**
+
+-   Ensemble methods (Random Forest, HistGradientBoosting) achieved the
+    best performance.
+-   Clear customer segments and key features were identified for churn
+    prediction.
+-   Association rules provided actionable insights for improving
+    retention strategies.
